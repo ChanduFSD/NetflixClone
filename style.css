@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+Bhaijaan+2&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400;500&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Teko:wght@300&family=Ubuntu&display=swap') 
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: black;
+}
+
+.main {
+  background-image: url(images/bsckgroundcover.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1310px, 100vw);
+  height: 70vh;
+  position: relative;
+}
+
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  max-width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+nav img {
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: calc(100% - 62px) ;
+  flex-direction: column;
+  position: relative;
+  gap: 23px;
+  padding:  0 30px;
+}
+
+.hero> :first-child {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.hero> :nth-child(2) {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.hero> :nth-child(3) {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.separetion{
+  height: 8px;
+  background-color: rgb(58, 58, 58);
+}
+
+.btn{
+  padding: 3px 8px;
+  font-weight: 20px bold ;
+  color: white;
+  background-color: rgba(248, 243, 243, 0);
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+ 
+
+}
+.btn-red{
+  background-color: red;
+  border: 1px solid red;
+  color: #fff;
+  padding: 9px 24px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.main input{
+  padding: 9px 30px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgba(23,23,23,0.7);
+  border: 1px solid rgba(141, 140, 140, 0.7);
+
+}
+
+.hero-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  
+
+
+}
+.btn-red-sm{
+  background-color: red;
+  border: 1px solid red;
+  color: #fff;
+}
+
+.first{
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+ color: #fff;   
+ align-items: center;
+}
+
+@media screen and (max-width: 1300px){
+  .first{
+    flex-wrap: wrap ;
+  }
+
+
+}
+.secimg{
+position: relative;
+
+}
+.secimg img{
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.secimg video{
+  position: absolute;
+  width: 27vw;
+  top: 81px;
+  right: 68px;
+  
+}
+.caption{
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  position: relative;
+  /* gap: 23px; */
+  /* padding:  0 30px; */
+}
+
+.caption :nth-child(1){
+  font-size: 3rem;
+  font-weight: 900;
+  /* text-align: center; */
+}
+.caption :nth-child(2){
+  font-size: 25px;
+  font-weight: 400;
+   text-align: center;
+}
+
+.faq{
+
+  background-color: black;
+  color: #fff;
+  padding: 34px;
+  
+  
+}
+.faq h2{
+  text-align: center;
+  font-size: 48px;
+}
+.faqbox:hover{
+  transition: all;
+ background-color: #414141;
+
+}
+.faqbox{
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  font-size: 24px;
+  max-width: 40vw;
+  margin: 20px auto;
+  cursor: pointer;
+
+}
+.faqbox svg{
+  filter: invert(1);
+}
+footer{
+  color: #fff;
+  max-width: 60vw;
+  margin: auto;
+  padding: 14px;
+}
+footer span{
+  padding: 34px 0;
+  
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: #fff;
+ 
+}
+.footer a{
+  font-size: 14px;
+  color: #fff;
+}
+.footer-iteam{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+} 
